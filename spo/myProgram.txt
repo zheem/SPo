@@ -1,0 +1,16 @@
+int i = 0;
+list aList;
+while (i < 12) {
+    aList add i;
+    i = i + 1;
+}
+
+int b = aList get 0;
+int c = aList get 1;
+int k = 0;
+int tmp = 0;
+while (k < 12) {
+    tmp = aList get k;
+    printf(tmp);
+    k = k + 1;
+}
